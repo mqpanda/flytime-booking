@@ -27,31 +27,45 @@ function App() {
         </div>
 
         <div className='flight-search'>
-          <div className='from'>
-            <img className='icon' width={21} height={18} src='/IMG/Union.svg' alt='union'/>
-            <h6>From where?</h6>
+          <div className='search-block from '>
+            <div>
+              <img className='icon' src='/IMG/Union.svg' alt='union'/>
+              <input placeholder='From where?'></input>
+            </div>
           </div>
-          <div className='from'>
-            <img className='icon' width={21} height={18} src='/IMG/Union.svg' alt='union'/>
-            <h6>Where to?</h6>
+          <div className='search-block from'>
+            <div>
+              <img className='icon'  src='/IMG/where.svg' alt='union'/>
+              <input placeholder='Where to?'></input>
+            </div>
+            
           </div>
-          <div className='from'>
-            <img className='icon' width={21} height={18} src='/IMG/Union.svg' alt='union'/>
-            <h6>Depart - Return</h6>
+          <div className='search-block depart'>
+            <div>
+              <img className='icon' src='/IMG/calendar.svg' alt='union'/>
+              <input className='date'  placeholder='Depart - Return'></input>
+            </div>
           </div>
-          <div className='from'>
-            <img className='icon' width={21} height={18} src='/IMG/Union.svg' alt='union'/>
-            <h6>1 adult</h6>
+          <div className='search-block adult'>
+            <div>
+              <img className='icon'  src='/IMG/person.svg' alt='union'/>
+              <input placeholder='1 adult'></input>
+            </div>
           </div>
-          <div className='from'>
+          <div className='search-block'>
             <div className='btn'>
-              Search
+              <img src='/IMG/Search.svg' className='mr-10'></img>
+              <span className='search'>Search</span>
             </div>
           </div>
         </div>
       </div>
 
+      <div className='recomended'>
 
+      </div>
+
+      
 
       
     </div>
